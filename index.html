@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Service Pricing hehe</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular'; 
+            background-color: #f7b5ca;
+            color: black
+            text-shadow: 2px 2px 5px white; 
+        }
+
+        h1{
+            text-align: center;
+            color: #f0a8d0;
+            -webkit-text-stroke: 1px white; 
+            font-family: cursive; 
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .box {
+            background: #fee8d2;
+            color: #bc024a;
+            text-align: left; 
+            padding: 20px;
+            margin: 15px;
+            flex: 1 1 300px;
+            max-width: 400px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-shadow: 2px 2px 5px #B03052; 
+        }
+
+       
+
+        .box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .box h2 {
+            margin: 0 0 10px;
+            font-size: 28px;
+        }
+
+        .box p {
+            margin: 10px 0 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .box .details {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #FF4E88; 
+            opacity: 0.8;
+        }
+
+
+        .box .signup {
+            margin-top: 20px;
+        }
+
+        .box .signup button {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            background-color: #f0a8d0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .box .signup button:hover {
+            background-color: #e0e0e0;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+   
+   <h1> Mira's Valentine Service Pricing </h1>
+   
+    <div class="container">
+        <div class="box">
+            <p>Basic</p>
+            <h2>₱300/per hour </h2>
+            <div class="details"> &#128151 Cute couple pics - Soft launch </div>
+            <div class="details"> &#128151 w/akbay </div>
+            <div class="details"> &#x1F494 Holding Hands </div>
+            <div class="signup">
+                <button> I want! </button>
+            </div>
+        </div>
+        <div class="box">
+            <p>Standard</p>
+            <h2>₱400/per hour</h2>
+            <div class="details"> &#128151 Cute couple pics - Hard launch </div>
+            <div class="details"> &#128151 Hugs </div>
+            <div class="details"> &#128151 Sweet messages </div> 
+            <div class="signup">
+                <button>I want!</button>
+            </div>
+        </div>
+        <div class="box">
+            <p>Pemium</p>
+            <h2>₱599/per hour </h2>
+            <div class="details">&#128151 Waist Grab </div>
+            <div class="details">&#128151 Handwritten letter </div>
+            <div class="details">&#128151 Spotify Playlist </div>
+            <div class="signup">
+                <button>I want!</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
